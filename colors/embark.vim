@@ -135,7 +135,7 @@ call s:h("Float",    {"fg": s:dark_yellow})
 " * Identifier any variable name
 call s:h("Identifier", {"fg": s:norm})
 "   Function function name (also: methods for classes)
-call s:h("Function",      {"fg": s:red})
+call s:h("Function",      {"fg": s:red, "gui": "bold", "cterm": "bold"})
 
 " * Statement - any statement
 call s:h("Statement",  {"fg": s:green})
