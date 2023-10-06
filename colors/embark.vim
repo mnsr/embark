@@ -142,7 +142,7 @@ call s:h("Statement",  {"fg": s:green})
 "   Conditional if, then, else, endif, switch, etc.
 "   Repeat  for, do, while, etc.
 "   Label  case, default, etc.
-call s:h("Label",        {"fg": s:dark_blue})
+call s:h("Label",        {"fg": s:dark_blue, "gui": "italic", "cterm": "italic"})
 "   Operator "sizeof", "+", "*", etc.
 call s:h("Operator",     {"fg": s:dark_cyan})
 "   Keyword any other keyword
