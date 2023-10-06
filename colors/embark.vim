@@ -118,7 +118,7 @@ endfunction
 " Generated with `:help E669`
 "
 " Nested descriptions fallback to parent rule
-call s:h("Comment",       {"fg": s:norm_subtle, "gui": s:maybe_italic(""), "cterm": s:maybe_italic("")})
+call s:h("Comment",       {"fg": s:norm_subtle, "gui": "italic", "cterm": "italic"})
 
 " * Constant any constant
 call s:h("Constant",      {"fg": s:purple})
@@ -146,7 +146,7 @@ call s:h("Label",        {"fg": s:dark_blue})
 "   Operator "sizeof", "+", "*", etc.
 call s:h("Operator",     {"fg": s:dark_cyan})
 "   Keyword any other keyword
-call s:h("Keyword",       {"fg": s:green})
+call s:h("Keyword",       {"fg": s:green, "gui": "italic", "cterm": "italic"})
 "   Exception try, catch, throw
 
 " * PreProc generic Preprocessor
